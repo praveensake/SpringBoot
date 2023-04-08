@@ -1,1 +1,1 @@
-GET http://localhost:8080/HelloWebApp_war_exploded/api/hello-world
+GET http://localhost:8080/HelloWebApp_war_exploded/api/hello-world/perm

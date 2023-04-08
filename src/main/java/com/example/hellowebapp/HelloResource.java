@@ -10,6 +10,13 @@ public class HelloResource {
         return "Hello, World!";
     }
 
+    @GET
+    @Path("perm")
+    @Produces("text/plain")
+    public String hello1() {
+        return "Perm Approved :)";
+    }
+
     @POST
     @Path("/{name}")
     @Produces("text/plain")
