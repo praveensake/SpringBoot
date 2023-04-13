@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTTP Endpoint Example</title>
+</head>
+<body>
+<h1>HTTP Endpoint Example</h1>
+<button onclick="getData()">Get Data</button>
+<div id="responseContainer"></div>
+
+<script>
+    function getData() {
+        fetch('http://localhost:8080/HelloWebApp_war_exploded/api/hello-world/A123') // Replace with the URL of your RESTful API endpoint
+            .then(response => response.json())
+            .then(data => {
+                // Display response on the web page
+                document.getElementById('responseContainer').innerHTML = '<pre>' + JSON.stringify(data, null, 4) + '</pre>';
+            })
+            .catch(error => {
+                console.error('Error getting data:', error);
+            });
+    }
+</script>
+</body>
+</html>

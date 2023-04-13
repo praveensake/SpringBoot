@@ -1,1 +1,3 @@
-POST http://localhost:8080/HelloWebApp_war_exploded/api/hello-world/Sake
+#POST http://localhost:8080/HelloWebApp_war_exploded/api/hello-world/Sake
+
+POST http://localhost:8080/HelloWebApp_war_exploded/api/hello-world/sake

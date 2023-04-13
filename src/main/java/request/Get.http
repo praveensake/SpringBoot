@@ -1,1 +1,5 @@
-GET http://localhost:8080/HelloWebApp_war_exploded/api/hello-world/perm
+#GET http://ec2-user@ec2-35-174-156-215.compute-1.amazonaws.com:8080/HelloWebApp-1.0-SNAPSHOT/api/hello-world
+
+#GET http://localhost:8080/HelloWebApp_war_exploded/api/hello-world
+
+GET http://localhost:8080/HelloWebApp_war_exploded/api/hello-world/A123
